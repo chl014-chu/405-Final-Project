@@ -50,6 +50,7 @@ bash pipeline.sh
 
 ## Desired Repository Layout
 
+```
 team5/
 ├── bash/                 # Directory for shell scripts
 │   ├── pipeline.sh       # Main pipeline script to execute Spark and DuckDB workflows
@@ -65,3 +66,4 @@ team5/
 │   ├── spark.py          # Spark script for data transformation
 ├── output/               # Directory for storing generated output (Parquet files)
 ├── README.md             # Project documentation
+```
