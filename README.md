@@ -15,6 +15,7 @@ This repository contains a "fire and forget" pipeline designed to analyze the re
 - **Description:** Initially, we collected CitiBike trip histories spanning multiple years. However, to meet memory constraints, we narrowed our focus to morning rush hour trips from 2017 to 2019. The dataset has been preprocessed (cleaned and trimmed) and is available for download from our Kaggle repository.
 - **Download Command:**
 
+```bash
 #!/bin/bash
 kaggle datasets download chuchu33/citibike-nyc-morning-commute-data-2017-2019
 
@@ -24,6 +25,7 @@ kaggle datasets download chuchu33/citibike-nyc-morning-commute-data-2017-2019
 - **Description:** We obtained PM2.5 data, including the air quality index, for the "New York-Newark-Jersey City, NY-NJ-PA" region from 2017 to 2019. After downloading, we preprocessed the data to remove entries outside of New York City and merged the annual data into one comprehensive dataset.
 - **Download Command:**
 
+```bash
 #!/bin/bash
 kaggle datasets download chuchu33/consolidated-nyc-air-quality-data-2017-2019
 
@@ -37,7 +39,7 @@ Please clone the repository with our code and move the data files into the `data
 
 ## Pipeline Execution
 
-Navigate to the repository root directory and execute
+Navigate to the repository root directory and execute:
 
 ```bash
 bash pipeline.sh
