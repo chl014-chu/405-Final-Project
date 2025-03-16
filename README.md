@@ -18,7 +18,7 @@ This repository contains a "fire and forget" pipeline designed to analyze the re
 ```bash
 #!/bin/bash
 kaggle datasets download chuchu33/citibike-nyc-morning-commute-data-2017-2019
-
+```
 
 ### NYC Air Quality Data
 - **Source:** https://www.epa.gov/outdoor-air-quality-data/download-daily-data
@@ -28,6 +28,7 @@ kaggle datasets download chuchu33/citibike-nyc-morning-commute-data-2017-2019
 ```bash
 #!/bin/bash
 kaggle datasets download chuchu33/consolidated-nyc-air-quality-data-2017-2019
+```
 
 ---
 
@@ -43,3 +44,4 @@ Navigate to the repository root directory and execute:
 
 ```bash
 bash pipeline.sh
+```
