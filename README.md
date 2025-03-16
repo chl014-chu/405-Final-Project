@@ -12,7 +12,7 @@ This repository contains a "fire and forget" pipeline designed to analyze the re
 
 ### CitiBike Data
 - **Source:** https://s3.amazonaws.com/tripdata/index.html
-- **Description:** Initially, we collected CitiBike trip histories spanning multiple years. However, to meet memory constraints, we narrowed our focus to morning rush hour trips from 2017 to 2019. The dataset has been preprocessed (cleaned and trimmed) and is available for download from our Kaggle repository.
+- **Description:** Initially, our plan was to analyze NYC CitiBike trip data spanning several years, totaling over 10GB. However, after encountering several challenges, we narrowed our focus to morning rush hour rides (i.e., those occurring from 7AM to 9AM) from 2017 to 2019 to optimize memory usage and overall efficiency. Before running our Spark job, the datasets were cleaned, filtered, and processed to create a "leaner" version of the data. The consolidated datasets are available for download via the Kaggle link provided below.
 - **Download:**
 https://www.kaggle.com/datasets/chuchu33/citibike-nyc-morning-commute-data-2017-2019
 
