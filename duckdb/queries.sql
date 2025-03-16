@@ -10,7 +10,7 @@ CREATE OR REPLACE VIEW measures_by_station AS (
         ANY_VALUE("Local Site Name") AS local_site_name,
         ANY_VALUE(site_latitude) AS site_latitude,
         ANY_VALUE(site_longitude) AS site_longitude
-    FROM citibike_pollution
+    FROM citibike_rides
     GROUP BY start_station_id
 );
 
