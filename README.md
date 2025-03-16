@@ -52,18 +52,18 @@ bash pipeline.sh
 
 ```
 team5/
-├── bash/                 # Directory for shell scripts
+├── bash/
 │   ├── pipeline.sh       # Main pipeline script to execute Spark and DuckDB workflows
-├── data/                 # Directory for preprocessed datasets
+├── data/
 │   ├── 2017_citibike_morning_rush_07_09.csv
 │   ├── 2018_citibike_morning_hours_07_09.csv
 │   ├── 2019_citibike_morning_rush_07_09.csv
 │   ├── nyc_air_quality_1719.csv
-├── duckdb/               # Directory for DuckDB-related files
+├── duckdb/
 │   ├── final.db          # Database storing processed data
-│   ├── queries.sql       # SQL queries for analysis
-├── spark/                # Directory for Spark-related scripts
+│   ├── queries.sql       # SQL analysis
+├── spark/
 │   ├── spark.py          # Spark script for data transformation
-├── output/               # Directory for storing generated output (Parquet files)
-├── README.md             # Project documentation
+├── output/
+├── README.md
 ```
